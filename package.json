@@ -1,0 +1,16 @@
+{
+  "name": "@Yusseiin/node-red-gpc-ocr-line-segmentation",
+  "version": "0.0.1",
+  "description": "Performs line segmentation based on characters polygon coordinates for data extraction for gpc ocr in node-red.",
+  "main": "gpcocrlinesegmentation.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "node-red" : {
+        "nodes": {
+            "gpcocrlinesegmentation": "gpcocrlinesegmentation.js"
+        }
+    }
+}
+
