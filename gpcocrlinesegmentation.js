@@ -403,8 +403,9 @@ function arrangeWordsInOrder(mergedArray, k) {
 }
 
 		node.on('input', function(msg) {
+			this.status({fill:"green",shape:"ring",text:"starting"});
             msg.payload = initLineSegmentation(msg.payload.responses[0]);
-			msg.topic = "Prova";
+			this.status({fill:"green",shape:"ring",text:"done"});
             node.send(msg);
         });
 }

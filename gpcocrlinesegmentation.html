@@ -1,15 +1,18 @@
 <script type="text/javascript">
     RED.nodes.registerType('gpcocrlinesegmentation',{
         category: 'function',
-        color: '#a6bbcf',
+        color: '#FFAAAA',
         defaults: {
             name: {value:""}
         },
         inputs:1,
         outputs:1,
-        icon: "",
+        icon: "font-awesome/fa-list",
         label: function() {
-            return this.name||"gpcocrlinesegmentation";
-        }
+            return this.name||"Gpc Ocr to Line Segment";
+        },
+		labelStyle: function() {
+		return this.name?"node_label_italic":"";
+		},
     });
 </script>
