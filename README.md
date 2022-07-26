@@ -3,8 +3,6 @@ Performs line segmentation based on characters polygon coordinates for data extr
 
 Based on: https://github.com/sshniro/line-segmentation-algorithm-to-gcp-vision
 
-[![Hex.pm](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/sshniro/line-segmentation-algorithm-to-gcp-vision/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/sshniro/line-segmentation-algorithm-to-gcp-vision.svg?branch=master)](https://travis-ci.com/sshniro/line-segmentation-algorithm-to-gcp-vision)
 # Introduction
 
 Google Vision provides 2 options for optical character recognition(OCR).
@@ -58,13 +56,6 @@ words which belongs to each line.
 
 The algorithm successfully works for most of the slanted and slightly crumpled images. But it will fail to highly 
 crumpled or folded images.
-
-## Test 
-##### Node JS
-
-- cd nodejs
-- npm install
-- npm test
 
 
 ## Future Work
