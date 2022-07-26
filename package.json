@@ -1,12 +1,23 @@
 {
-  "name": "@Yusseiin/node-red-gpc-ocr-line-segmentation",
-  "version": "0.0.1",
+  "name": "@yusseiin/node-red-gpc-ocr-line-segmentation",
+  "version": "0.0.3",
   "description": "Performs line segmentation based on characters polygon coordinates for data extraction for gpc ocr in node-red.",
   "main": "gpcocrlinesegmentation.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yusseiin/node-red-gpc-ocr-line-segmentation"
+  },
+  "author": "Yusseiin",
+   "license": "GPL-3.0",
+  "keywords": [
+    "node-red",
+	"google cloud vision",
+	"ocr",
+	"line segmentation"
+],
   "node-red" : {
         "nodes": {
             "gpcocrlinesegmentation": "gpcocrlinesegmentation.js"
